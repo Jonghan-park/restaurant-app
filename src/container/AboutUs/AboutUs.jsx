@@ -9,10 +9,23 @@ const AboutUs = () => (
       <img src={images.G} alt="g letter" />
     </div>
     <div className="app__aboutus-content flex__center">
+
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About us</h1>
         <img src={images.spoon} alt="about_spoon" className='spoon__img' />
         <p className="p__opensans">If you're visiting this page, you're likely here because you're searching for a random sentence. Sometimes a random word just isn't enough, and that is where the random sentence generator comes into play.</p>
+        <button type='button' className='custom__button'>Know More</button>
+      </div>
+
+      <div className="app__aboutus-content_knife flex__center">
+        <img src={images.knife} alt="about_knife" />
+      </div>
+
+      <div className="app__aboutus-content_history">
+        <h1 className="headtext__cormorant">Our History</h1>
+        <img src={images.spoon} alt="about_spoon" className='spoon__img' />
+        <p className="p__opensans">If you're visiting this page, you're likely here because you're searching for a random sentence. Sometimes a random word just isn't enough, and that is where the random sentence generator comes into play.</p>
+        <button type='button' className='custom__button'>Know More</button>
       </div>
     </div>
 
